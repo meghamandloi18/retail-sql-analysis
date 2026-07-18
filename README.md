@@ -22,9 +22,9 @@ A normalized retail sales database (customers, products, orders) analyzed with S
 10. Cumulative revenue over time (running total window function)
 
 ## Sample findings
-- **Apparel is the top revenue category** (~₹91.3K), driven by Running Shoes and Denim Jacket, despite Electronics having the most units sold.
-- **Revenue is fairly balanced across regions**, with West (~₹61.2K) and East (~₹60.0K) slightly ahead of North and South.
-- **Apparel has the highest average order value** (~₹100.6) — over 4x Grocery's AOV (~₹22.5) — suggesting different cart-building strategies by category.
+- **Apparel is the top revenue category** (~$91.3K), driven by Running Shoes and Denim Jacket, despite Electronics having the most units sold.
+- **Revenue is fairly balanced across regions**, with West (~$61.2K) and East (~$60.0K) slightly ahead of North and South.
+- **Apparel has the highest average order value** (~$100.6) — over 4x Grocery's AOV (~$22.5) — suggesting different cart-building strategies by category.
 - Window functions (`LAG`, `RANK`, running `SUM`) were used to compute month-over-month growth, per-region customer rankings, and cumulative revenue without extra self-joins.
 
 ## Tech stack
