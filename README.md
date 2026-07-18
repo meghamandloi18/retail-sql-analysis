@@ -31,7 +31,7 @@ A normalized retail sales database (customers, products, orders) analyzed with S
 SQLite · SQL (joins, CTEs, window functions) · Python (for data generation)
 
 ## Live demo
-Deployed on Streamlit Community Cloud: **[add your URL here after deploying]**
+Deployed on Streamlit Community Cloud: (https://retail-sql-analysis-3jlvmfmtxvyudfhjf6fuh3.streamlit.app)
 
 Run locally:
 ```bash
